@@ -1,7 +1,11 @@
 import React from 'react';
+import ChartComponent from './ChartComponent'
 
-const ExampleChart = () => {
-  return <div>chart</div>;
-};
+function ExampleChart() {
+  return (
+    <ChartComponent/>
+      
+  )
+}
 
-export default ExampleChart;
+export default ExampleChart
