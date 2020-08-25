@@ -25,7 +25,7 @@ const UserInfo = () => {
       label: "following", value: following, color: 'purple'
     },
     {
-      id: 1,
+      id: 4,
       icon: <GoGist className='icon' />,
       label: "gists", value: public_gists, color: 'yello'
     }
